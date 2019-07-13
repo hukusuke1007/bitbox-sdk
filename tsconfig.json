@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
+    "target": "es6",
     "module": "esnext",
     "strict": true,
-    "target": "es5",
     "downlevelIteration": true,
     "moduleResolution": "node",
-    "lib": ["es2017"],
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es2017"
+    ],
     "sourceMap": true
   },
   "include": ["./lib", "./test", "./test/unit/**/*.ts"],

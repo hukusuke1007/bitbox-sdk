@@ -1,4 +1,4 @@
-import randomBytes from "randombytes"
+import * as randomBytes from "randombytes"
 const Bitcoin = require("bitcoincashjs-lib")
 
 export class Crypto {
